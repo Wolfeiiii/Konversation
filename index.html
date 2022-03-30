@@ -6,16 +6,16 @@
         <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
         <script>
             var elements = {
-                jokes: ["Vad är det bästa med Schweiz? Jag vet inte... men flaggan är ett stort plus."],
-                projects: ["Spela UNO", "Gå på restaurang", "Adoptera ett barn"],
-                stuff: ["Vad gör du på fritiden?", "Vad är din åsikter på Palestina och Israel situationen?", "Vad händer i helgen?"],
+                jokes: ["Vad är det bästa med Schweiz? Jag vet inte... men flaggan är ett stort plus.", "Vad dricker den engelska klastrofoben? Rum.", "Varför går norrmän alltid med en bildörr i öken? Så dom kan rulla ner rutan."],
+                projects: ["Spela UNO", "Gå på restaurang", "Adoptera ett barn", "Bygga en skorsten."],
+                stuff: ["Vad gör du på fritiden?", "Vad är din åsikter på Palestina och Israel situationen?", "Vad händer i helgen?", "Har du något beroende?"],
             };
 
             function getAnIdea() {
                 function get(source) {
                     return source[Math.floor(Math.random() * source.length)];
                 }
-                return [get(elements.jokes), get(elements.projects), get(elements.stuff)].join(' | ');
+                return [get(elements.jokes), get(elements.projects), get(elements.stuff)].join('\n');
             }
 
             function brainstorm() {
