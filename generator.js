@@ -1,4 +1,4 @@
-let categories = {"Döda ett barn", "Adoptera ett barn"};
+let categories = ["Döda ett barn", "Adoptera ett barn"];
   
 document.getElementById("button").addEventListener(
     "click",
