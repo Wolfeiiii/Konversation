@@ -15,7 +15,7 @@
                 function get(source) {
                     return source[Math.floor(Math.random() * source.length)];
                 }
-                return [get(elements.jokes), get(elements.projects), get(elements.stuff)].join('\n');
+                return [get(elements.jokes), get(elements.projects), get(elements.stuff)].join('<br>');
             }
 
             function brainstorm() {
@@ -24,6 +24,9 @@
 
             $(document).ready(function() {
                 $('#shuffleBtn').click(brainstorm);
+                var audio = new Audio("song.mp3");
+                audio.play();
+                
                 dataCallback();
             });
 
