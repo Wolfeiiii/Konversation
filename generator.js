@@ -1,4 +1,4 @@
-const categories = ["Döda ett barn", "Adoptera ett barn"];
+const categories = ["Doda ett barn", "Adoptera ett barn"];
   
 document.getElementById("button").addEventListener(
     "click",
