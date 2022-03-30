@@ -6,7 +6,7 @@ window.onload = function onLoad() {
 }
 
 function generate() {
-  let result = pickRandom(');
+  let result = pickRandom();
   document.getElementById("content").innerHTML = result;
 }
 
