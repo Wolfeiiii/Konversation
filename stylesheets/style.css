@@ -1,7 +1,7 @@
 p {
     color: rgb(230, 230, 240);
-    background-color: rgb(26, 35, 59);
-    border-color: rgb(18, 25, 46);
+    background-color: rgb(74, 123, 168);
+    border-color: rgb(67, 78, 110);
 
     border-radius: 32px;
     border-width: 2px;
@@ -15,7 +15,7 @@ body {
 }
 
 textarea {
-    color: rgb(230, 230, 240);
+    color: rgb(74, 123, 168);
     background-color: rgb(37, 48, 80);
     border-color: rgb(26, 35, 59);
     border-radius: 16px;
@@ -53,7 +53,7 @@ div.everything {
 }
 
 h1, h2, h3 {
-    color: rgb(230, 230, 240);
+    color: rgb(74, 123, 168);
 }
 
 h2 {
