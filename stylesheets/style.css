@@ -1,7 +1,7 @@
 p {
-    color: rgb(230, 230, 240); // text
-    background-color: rgb(74, 123, 168); // bakgrund
-    border-color: rgb(67, 78, 110); // skriva in färg
+    color: rgb(230, 230, 240);
+    background-color: rgb(74, 123, 168);
+    border-color: rgb(67, 78, 110);
 
     border-radius: 32px;
     border-width: 2px;
@@ -88,5 +88,5 @@ button:hover {
 }
 
 a {
-    color: deepskyblue;
+    color: royalblue;
 }
