@@ -80,6 +80,7 @@ button {
     padding-right: 12px;
     padding-left: 12px;
     color: rgb(230, 230, 240);
+    font-size: 30px;
 }
 
 button:hover {
