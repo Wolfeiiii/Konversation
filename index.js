@@ -32,7 +32,7 @@ function loadFile(url) {
     return true;
 }
 
-function getRandElement(arr) {
+function getRandomElement(arr) {
     return arr[Math.floor(Math.random()*arr.length)];
 }
 
