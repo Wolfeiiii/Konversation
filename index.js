@@ -19,6 +19,10 @@ function loadFile(url) {
         loaded += 1;
         idea.innerHTML = loaded + "/" + required.length + " resurser laddade."
         console.log(`Laddade ${url}`)
+        
+        if (loaded === required.length) {
+            generateIdea('joke');
+        }
     }
     
     xhr.open("GET", url);
@@ -28,6 +32,22 @@ function loadFile(url) {
     return true;
 }
 
+function getRandElement(arr) {
+    return arr[Math.floor(Math.random()*arr.length)];
+}
+
 required.forEach(function (item, index) {
   loadFile(item)
 });
+
+function generateIdea(type) {
+    if (type === 'joke') {
+        idea.innerHTML = getRandomElement(res.jokes);
+    } else if (type === 'thing') {
+        idea.innerHTML = getRandomElement(res.things);        
+    } else if (type === 'conversation') {
+        idea.innerHTML = getRandomElement(res.conversations);
+    } else {
+        idea.innerHTML = getRandomElement(res.restaurants);
+    }
+}
